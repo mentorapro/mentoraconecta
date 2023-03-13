@@ -1,0 +1,128 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "bleed": true,
+      "style": "emphasis",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "${title}",
+          "color": "Good"
+        },
+        {
+          "type": "TextBlock",
+          "text": "${AppName}",
+          "wrap": true,
+          "horizontalAlignment": "Left",
+          "spacing": "None",
+          "weight": "Bolder",
+          "color": "Accent"
+        }
+      ],
+      "isVisible": true,
+      "spacing": "None",
+      "horizontalAlignment": "Left"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "https://robohash.org/419eaa00ba19a1e61916d0252dbbbed4?set=set4&bgset=&size=400x400",
+              "size": "Small"
+            }
+          ],
+          "width": "auto"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": "${clientName}",
+              "wrap": true,
+              "spacing": "None",
+              "separator": false,
+              "horizontalAlignment": "Left",
+              "color": "Good"
+            },
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Received ${createdUtc}",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "${message}",
+      "wrap": true
+    },
+    {
+      "type": "ColumnSet",
+      "bleed": true,
+      "separator": false,
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Chat With",
+                  "id": "chat",
+                  "data": {
+                    "msteams": {
+                      "type": "task/fetch"
+                    },
+                    "Value1": "chat"
+                  }
+                },
+                {
+                  "type": "Action.Submit",
+                  "title": "View Chat",
+                  "id": "view",
+                  "data": {
+                    "msteams": {
+                      "type": "task/fetch"
+                    },
+                    "Value1": "view"
+                  }
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "separator": false,
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        }
+      ],
+      "style": "emphasis",
+      "horizontalAlignment": "Center",
+      "spacing": "Small",
+      "height": "stretch"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4",
+  "verticalContentAlignment": "Center"
+}
