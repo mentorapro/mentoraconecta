@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentoraConecta", "MentoraConecta\MentoraConecta.csproj", "{F936A073-6AC5-4B3F-B4F2-6942D368861B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "teams.app.mpwti", "teams.app.mpwti\teams.app.mpwti.csproj", "{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F936A073-6AC5-4B3F-B4F2-6942D368861B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9D79C2-00C1-4DD9-A5D1-F24DFC0803A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
